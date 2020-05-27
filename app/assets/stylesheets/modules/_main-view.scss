@@ -52,6 +52,7 @@ a {
       height: calc(100vh - 190px);
       background-color: #fafafa;
       padding: 46px 40px;
+      overflow: scroll;
       .message {
         padding-bottom: 40px;
         &__upper-info {
@@ -87,7 +88,7 @@ a {
         width: 100%;
         .form__message {
           height: 50px;
-          width: 100%;
+          width: 950px;
           padding: 13px 40px 13px 10px;
           background-color: white;
           margin-right: 15px;
@@ -108,9 +109,9 @@ a {
           }
         }
         .form__submit {
-          // position: absolute;
-          // top: 20px;
-          // right: 40px;
+          position: absolute;
+          top: 20px;
+          right: 40px;
           width: 100px;
           height: 50px;
           padding: 12px 30px;
