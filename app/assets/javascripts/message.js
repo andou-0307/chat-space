@@ -60,7 +60,7 @@ $('#new_message').on('submit', function(e){
     $('.messages').animate({ scrollTop: $('.messages')[0].scrollHeight});
   })
   .fail(function(){
-    alert('メッセージを入力してください')
+    alert('メッセージ送信に失敗しました')
     $('.form__submit').prop('disabled', false);
   });
   return false;
