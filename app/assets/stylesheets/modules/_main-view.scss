@@ -57,7 +57,7 @@ a {
       overflow: scroll;
       .message {
         padding-bottom: 40px;
-        &__upper-message {
+        .upper-message {
           display: flex;
           margin-bottom: 10px;
           &__user-name {
