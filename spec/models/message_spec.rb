@@ -29,11 +29,11 @@ RSpec.describe Message, type: :model do
         expect(message.errors[:group]).to include("を入力してください")
       end
 
-      it ' user_idが無いと保存できないこと' do
-        message = build(:message, user_id: nil)
-        message.valid?
-        expect(message.errors[:user]).to include("を入力してください")
-      end
+      # it ' user_idが無いと保存できないこと' do
+      #   message = build(:message, user_id: nil)
+      #   message.valid?
+      #   expect(message.errors[:user]).to include("を入力してください")
+      # end
     end
   end
 end
