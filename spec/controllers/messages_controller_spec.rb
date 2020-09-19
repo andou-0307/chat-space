@@ -76,6 +76,11 @@ describe MessagesController do
           subject
           expect(response).to render_template :index
         end
+
+        it 'index.html.hamlに遷移すること' do
+          subject
+          expect(response).to render_template :index
+        end
       end
     end
 
